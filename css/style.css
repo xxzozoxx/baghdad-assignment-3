@@ -129,8 +129,7 @@ b{
     content: url('../imgs/people.png');
 }
 .img-array{
-    list-style: none;
-    display: inline-flex;
+
     padding-left: 12px;
 }
 .img-array img{
@@ -138,7 +137,7 @@ b{
     height: 40px;
     border-radius: 25px;
     border: 3px solid white;
-    margin-left: -14px;
+    margin-left: -20px;
 
 }
 .wrap{
