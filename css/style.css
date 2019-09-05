@@ -45,9 +45,10 @@ img[alt="logo"]{
     color:#5997ca;
     font-size: 12px;
 }
-#navbar a:hover{
+#navbar :last-child a{
     background: #039BE6;
     color: #f6f7f9;
+
 }
 /*////// main section /////////*/
 #container{
