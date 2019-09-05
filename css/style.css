@@ -11,11 +11,7 @@ body{
     margin-top: 4%;
     background: #f6f7f9;
 }
-img[alt="logo"]{
-    width: 40px;
-    height: 40px;
-    margin: 5px 0 0 49px;
-}
+/*/////header section ////*/
 header{
     position:fixed;
     top:0;
@@ -25,6 +21,11 @@ header{
     display: flex;
     justify-content: space-around;
     z-index: 10;
+}
+img[alt="logo"]{
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 49px;
 }
 #navbar{
     list-style: none; 
@@ -48,15 +49,13 @@ header{
     background: #039BE6;
     color: #f6f7f9;
 }
+/*////// main section /////////*/
 #container{
     width: 700px;
     height:100%;
     margin:0 auto;
     position: relative;
     box-shadow: 1px 1px 1px 0 #dddee0,-1px 0 1px 0 #dddee0;
-
-
-
 }
 #cover-photo img{
     width: 100%;
@@ -92,6 +91,9 @@ header{
 .interact :first-child{
     background: #039BE6;
     color: #f6f7f9;
+}
+#info{
+    margin: 20px;
 }
 .bio{
     position: relative;
@@ -140,7 +142,4 @@ b{
 }
 .wrap{
     margin-top: 5%;
-}
-#info{
-    margin: 20px;
 }
